@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.aula.dslist.Repository.GameRepository;
 import com.aula.dslist.dto.GameMinDTO;
+import com.aula.dslist.repository.GameRepository;
 
 @Service
 public class GameService {
